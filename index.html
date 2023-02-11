@@ -1,19 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
+<head>    
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/bb5f452df3.js" crossorigin="anonymous"></script>
     <title>Booki</title>
-    <link rel="stylesheet" href="./css/style.css">
-    
-</head>
+        <link href="CSS/style.css" rel="stylesheet" >
 
-<body>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Booki</title>
+    </head>
+
+    <body>
+		
+<!--  header + nav   -->		
+		
+        <header>
+            <div class="menu">
+                <img src="images/logo/Booki.png" alt="Logo Booki" class="booki">
+                <nav>
+                    <a href="#">Hébergement</a>
+                    <a href="#">Activités</a>
+                </nav>
+            </div>
+            <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+        </header>
+		
+<!--  Titre + formulaire de recherche   -->
+		
+        <main>
+            <form>
+                <i class="fa-solid fa-location-dot" id="ico_recherche"></i>
+                <input type="text" name="recherche" placeholder="Marseille, France" id="champ_saisie">
+                <div class="boutton">
+                    <i class="fa-solid fa-magnifying-glass" id="loupe"></i>
+                    <input type="submit" value="Rechercher" id="boutton_recherche" >
+                </div>
+            </form>
+			
+<!--  Filtres   -->
+				
+            <div class="filtre">
+                <h2>Filtres</h2>
+                <div class="boutton_filtre">
+                    <a href="#"><i class="fa-solid fa-money-bill-wave"></i>Économie</a>
+                    <a href="#"><i class="fa-solid fa-person"></i>Familial</a>
+                    <a href="#"><i class="fa-solid fa-heart"></i>Romantique</a>
+                    <a href="#"><i class="fa-solid fa-dog"></i>Animaux autorisés</a>
+                </div>
+            </div>
+			
+<!--  info   -->
+			
+            <div class="information">
+                <i class="fa-solid fa-info" id="i"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
 
 
-</body>
+        </main>
+
+    </body>
 </html>
