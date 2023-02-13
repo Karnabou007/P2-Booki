@@ -198,12 +198,12 @@ form{
     justify-content: space-between;
     height: 700px;
 }
-section{
+hebergements{
     width: 63%;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
-section h1{
+hebergements h1{
     margin: 30px 0 20px 25px;
 }
 .listes-hebergements{
