@@ -249,12 +249,12 @@ button.filtre-box i
     justify-content: space-between;
     height: 700px;
 }
-.hebergements{
+#hebergements{
     width: 63%;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
-.hebergements h1{
+#hebergements h1{
     margin: 30px 0 20px 25px;
 }
 .listes-hebergements{
@@ -366,11 +366,11 @@ button.filtre-box i
 *           Activites            	*
 ************************************/
 
-.activites{
+#activites{
     width: 100%;
     margin-top: 30px;
 }
-.activites h1{
+#activites h1{
     padding-bottom: 20px;
 }
 .marseille-activites{
@@ -452,7 +452,7 @@ footer a:hover
         flex-direction: column;
         height: 950px;
     }
-    .hebergements{
+    #hebergements{
         width: 100%;
         height: 626px;
     }
@@ -599,7 +599,7 @@ footer a:hover
         height: 100%;
     }
 	
-    .populaires, .hebergements{
+    .populaires, #hebergements{
         height: 100%;
         border-radius: 0;
     }
@@ -617,7 +617,7 @@ footer a:hover
         width: 90%;
     }
 	
-    .hebergements{
+    #hebergements{
         background-color: white;
     }
     .hebergements-hotel{
@@ -633,7 +633,7 @@ footer a:hover
         display: none;
     }
 	
-    .activites{
+    #activites{
 		margin: 10% 0 10% 5%;
 		width: 90%;
     }
