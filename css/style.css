@@ -49,6 +49,10 @@ h4{
 	font-size: 18px;
 }
 
+.euro {
+  font-weight: 700;
+}
+
 /***********************************************
 *        HEADER, Menu de naviguation 			*
 ************************************************/
@@ -95,8 +99,6 @@ nav a:hover{
     border-top: 2px #0065FC solid;
     font-weight: 500;
 }
-
-
 
 /***********************************************
 *          formulaire de recherche      	   *
@@ -285,6 +287,7 @@ button.filtre-box i
     object-fit: cover;
     border: 3px white solid;
 }
+
 .description-hebergements{
     display: flex;
     flex-direction: column;
@@ -342,7 +345,7 @@ button.filtre-box i
 .carte_populaire{
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 80%;
     height: 144px;
     background-color: white;
     border-radius: 20px;
@@ -355,7 +358,11 @@ button.filtre-box i
     object-fit: cover;
     border: 3px white solid;
 }
-.description-populaires{
+
+.carte_populaire .carte {
+	display: flex;
+}
+ .description-populaires{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
